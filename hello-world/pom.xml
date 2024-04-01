@@ -2,16 +2,18 @@
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
     <parent>
         <artifactId>java-agent-demo</artifactId>
         <groupId>io.github</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>java-agent-hello-world</artifactId>
+    <modelVersion>4.0.0</modelVersion>
 
-    <name>java-agent-hello-world</name>
-    <url>https://medium.com/nerd-for-tech/what-is-a-java-agent-and-what-is-it-for-7a7896729c76</url>
+    <artifactId>hello-world</artifactId>
+
+    <name>hello-world</name>
+    <!-- FIXME change it to the project's website -->
+    <url>http://www.example.com</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -23,6 +25,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
+            <version>4.11</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
