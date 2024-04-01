@@ -12,6 +12,7 @@
     <modules>
         <module>java-agent-hello-world</module>
         <module>hello-world</module>
+        <module>byte-buddy-demo</module>
     </modules>
 
     <name>java-agent-demo</name>
@@ -22,7 +23,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <!-- 软件版本 -->
-        <junit.version>4.11</junit.version>
+        <junit.version>4.13.2</junit.version>
     </properties>
 
     <dependencyManagement>
